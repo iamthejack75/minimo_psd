@@ -1,0 +1,227 @@
+/* Basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boeder-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Header */
+header{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    margin-left: 80px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+    color: tomato;
+}
+
+/* Banner Img */
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    margin-top: 35px;
+}
+
+/* Photodiary Section */
+.photodiary{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.photodiary h5{
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.photodiary h1{
+    font-size: 38px; 
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.photodiary p{
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 34px;
+    margin-bottom: 48px;
+}
+.photodiary span{
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+/* Lifestyle Section */
+.lifestyle{
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.lifestyle img{
+    width: 100%;
+}
+.lifestyle h5{
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.lifestyle h1{
+    font-size: 26px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.lifestyle p{
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    margin-top: 40px;
+    line-height: 1.7;
+}
+.single-lifestyle{
+    width: 45%;
+}
+
+/* Newsletter Section */
+.newsletter-section{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 40vh;
+    margin-top: 80px;
+    text-align: center;
+}
+.newsletter-section h1{
+    padding-top: 70px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 80px;
+    font-weight: 500;
+}
+.newsletter-section input{
+    border: none;
+    width: 20%;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid black;
+    padding: 6px;
+    position: relative;
+}
+.newsletter-section .address{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+.newsletter-section img{
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 7px;
+}
+
+/* Butten Section */
+.btn{
+    height: 260px;
+    text-align: center;
+    margin-top: 150px;
+}
+.btn input{
+    padding: 18px 40px;
+    font-size: 20px;
+    color: #626262;
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    border: 1.5px solid #A9A9A9;
+}
+.btn input:hover{
+    color: rgb(131, 177, 78);
+}
+
+/* Footer Section */
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #f0f0f0;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.footer-content .privacy{
+    width: 20%;
+}
+.footer-content .privacy ul{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+.footer-content .privacy ul li{}
+.footer-content .privacy ul li a{
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+    color: #000000;
+}
+.social-icon{
+    width: 23%;
+}
+.social-icon ul{
+    list-style: none;
+}
+.social-icon ul li{
+    float: left;
+    margin-right: 26px;
+}
+.social-icon ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+.social-icon ul li a:hover{
+    color: midnightblue;
+}
+
+
